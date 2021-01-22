@@ -1,0 +1,18 @@
+Step 1 : XAMPP CONTROL PANEL v3.2.4
+         Run Apache and MySQL
+
+Step 2 : Open http://localhost/phpmyadmin/ and add Database Profile.
+         Folder name : registration
+
+Step 3 : After Open home.php in localhost
+         http://localhost/registration/home.php
+
+Step 4 : Then go to login page
+         http://localhost/registration/login.php
+         Username : Abhishek jha
+         Password : Python@123
+
+Step 5 : If you not Login then click Sign Up button.
+         http://localhost/registration/register.php
+
+Step 6 : After Login successfully you are going to Admin Dashboard. 
