@@ -31,7 +31,7 @@
 <style>
   .body{
   	font-family: 'Courgette', cursive;
-    height: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm_8ApdxKCKrVduIu7ipHKq4BujKjDF2VQYQ&usqp=CAU");
   }
   .carousel-item {
   	height: 100vh;
@@ -108,9 +108,9 @@
   }
 
   .image-style {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
   }
 
   nav a {
@@ -124,6 +124,7 @@
     margin: 0 5px;
     font-size: 17px;
   }
+  
   nav a:hover {
     border-top: 4px solid white;
     border-bottom: 4px solid white;
@@ -155,7 +156,7 @@
     -webkit-box-shadow: none;
     border-bottom: 1px;
     border-style: none none solid none;
-    border-radius:0;
+    border-radius:25px;
     border-color: #000;
   }
 
@@ -189,6 +190,7 @@
     -o-border-radius: 30px;
     -ms-border-radius: 30px;
   }
+  
   .register:hover {
     background-color:#36b051;
     color:#fff;
@@ -245,7 +247,7 @@
   <br>
   <br>
   <!-- Start container -->
-  <div class="container ">
+  <div class="container text-light">
 
     <!-- Start row -->
     <div class="row">
@@ -263,25 +265,25 @@
         <form id="contact-form" name="myForm" class="form" action="contact.php" onsubmit="return validateForm()" method="POST" role="form">
 
           <div class="form-group">
-            <label class="form-label" id="nameLabel" for="name"><i class="fas fa-user-check text-danger"></i>&nbsp; User Name</label>
+            <label class="form-label" id="nameLabel" for="name"><i class="fas fa-user-check text-light"></i>&nbsp; User Name</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1">
           </div>
 
           <br>
           <div class="form-group">
-            <label class="form-label" id="emailLabel" for="email"><i class="fas fa-envelope text-danger"></i>&nbsp; Email</label>
+            <label class="form-label" id="emailLabel" for="email"><i class="fas fa-envelope text-light"></i>&nbsp; Email</label>
             <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2">
           </div>
 
           <br>
           <div class="form-group">
-            <label class="form-label" id="subjectLabel" for="sublect"></i><i class="fas fa-pencil-alt text-danger"></i>&nbsp; Subject</label>
+            <label class="form-label" id="subjectLabel" for="sublect"></i><i class="fas fa-pencil-alt text-light"></i>&nbsp; Subject</label>
             <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
           </div>
 
           <br>
           <div class="form-group">
-            <label class="form-label" id="messageLabel" for="message"><i class="far fa-comments text-danger"></i>&nbsp; Message</label>
+            <label class="form-label" id="messageLabel" for="message"><i class="far fa-comments text-light"></i>&nbsp; Message</label>
             <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea>
           </div>
 
